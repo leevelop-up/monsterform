@@ -1,0 +1,49 @@
+#filter_div{
+  margin-left: 20%;
+  margin-right: 20%;
+  height:80px;
+}
+
+#title_ul{
+  margin : 0;
+  padding: 0;
+
+}
+
+#filter_div ul li{
+  list-style: none;
+  display: inline;
+}
+
+#title{
+  font-size: 22pt;
+  font-weight: bold;
+}
+#select_ul{
+  height:80px;
+  font-size: 16pt;
+}
+#select_ul li{
+vertical-align: middle;
+}
+#select_ul li:hover{
+vertical-align: middle;
+cursor: pointer;
+
+}
+
+#select_ul_li_float_right{
+  float: right;
+}
+#big_data_select{
+  height:36px;
+  width:300px;
+  border:2px solid lightgray;
+  outline: none;
+}
+#big_data_select:focus{
+  height:36px;
+  width:300px;
+  outline: none;
+  background-color: #eeeeee;
+}

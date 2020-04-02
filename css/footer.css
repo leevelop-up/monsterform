@@ -1,0 +1,88 @@
+@font-face{
+  font-family:"UniNeue-HeavyItalic"; /*폰트 패밀리 이름 추가*/
+  src:url("../font/UniNeue-HeavyItalic.TTF"); /*폰트 파일 주소*/
+}
+.footer_footer *{
+  font-family: "UniNeue-HeavyItalic";
+}
+body{
+  margin-left: 0;
+  margin-right: 0;
+  padding-right:0;
+  padding-left:0;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+#footer_main *{
+  /* border:0.1px solid red; */
+}
+#footer_main a{
+  color:rgb(245,245,244,230);
+}
+#footer_main a:hover{
+  color:rgb(180,180,180,120);
+}
+#footer_main{
+  background-color: #504e4b;
+  text-align: center;
+  color: rgb(245,245,244,230);
+  height:350px;
+
+}
+#footer_main_margin_left_right{
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+}
+#footer_logo{
+  width:150px;
+  float: right;
+}
+#footer_div1{
+  height:300px;
+}
+#footer_div1_div1{
+  display: inline-block;
+  height:300px;
+  padding-top:50px;
+  margin-right:80px;
+  font-family: UniNeue-light;
+  text-align: left;
+}
+#footer_div1_div2{
+  display: inline-block;
+  margin-left: 100px;
+  text-align: left;
+}
+.footer_div1_div2_div{
+  display: inline-block;
+  height:auto;
+  width:150px;
+  float: left;
+  padding-right: 50px;
+}
+.footer_div1_div2_div ul{
+  margin:0;
+  padding:0;
+}
+.footer_div1_div2_div ul li{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+#footer_div1_div2_div5_id{
+  padding-right: 0;
+}
+#footer_div2{
+  margin:0;
+  margin-top:10px;
+  padding:0;
+}
+#footer_div2 ul li{
+  display: inline-block;
+  list-style: none;
+}
+#footer_div2_ul{
+  margin:0px;
+  padding:0px;
+}
